@@ -8,11 +8,17 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Counter from './components/counter';
 import NewCounter from './components/newCounter';
 import Ncounter from './components/Ncounter';
+import AgainNewCounter from './components/againNew';
+import NewCount from './components/NewCount';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Counter />
+    <NewCounter />
     <Ncounter />
+    <AgainNewCounter/>
+    <NewCount />
   </React.StrictMode>
 );
 
